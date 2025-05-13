@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#hoverBox {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 150px;
+  margin: 10px 0;
+  transition: transform 0.3s;
+}
+
+.gallery img {
+  display: block;
+  margin: 10px 0;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-content.open {
+  display: block;
+}
